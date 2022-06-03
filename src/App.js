@@ -27,10 +27,10 @@ useEffect(()=>{
   return (
     <Router>
          <Routes>
-            <Route path="/" element={<Login></Login>}  />
-            <Route path="/register" element={<Register></Register>}  />
-            <Route path="/inicio" element={<Inicio></Inicio>}  />
-            <Route path="/peticiones" element={<TablaPeticiones></TablaPeticiones>}  />
+            <Route path="FirebaseCrud/" element={<Login></Login>}  />
+            <Route path="FirebaseCrud/register" element={<Register></Register>}  />
+            <Route path="FirebaseCrud/inicio" element={<Inicio></Inicio>}  />
+            <Route path="FirebaseCrud/peticiones" element={<TablaPeticiones></TablaPeticiones>}  />
          </Routes>
     </Router>
          

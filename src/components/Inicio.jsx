@@ -144,7 +144,7 @@ export default function Inicio() {
       <div className=" inicio card mx-4 mx-md-5 shadow-5-strong">
         <div className="card-body py-5 px-md-5">
           <div className='col-lg-12 consultar'>
-            <Link to="/peticiones" className="btn btn-outline-info" ><b>Consultar</b></Link>
+            <Link to="FirebaseCrud/peticiones" className="btn btn-outline-info" ><b>Consultar</b></Link>
           </div>
           <div className="row d-flex justify-content-center">
             <div className="col-lg-8">
