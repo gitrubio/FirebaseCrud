@@ -72,7 +72,7 @@ export default function Login() {
                 <Link to="FirebaseCrud/" className="nav-link active bg-danger" ><b>Login</b></Link>
               </li>
               <li className="nav-item" role="presentation">
-                <Link to="FirebaseCrud/register" className="nav-link text-danger " ><b>Register</b></Link>
+                <Link to="/register" className="nav-link text-danger " ><b>Register</b></Link>
               </li>
             </ul>
             <form>

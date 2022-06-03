@@ -79,7 +79,7 @@ const eliminarDato = (id)=>{
     <div className=" inicio card mx-4 mx-md-5 shadow-5-strong">
       <div className="card-body py-5 px-md-5">
       <div className='col-lg-12 volver'>
-      <Link to="FirebaseCrud/inicio" className="btn btn-outline-danger" ><b>Volver</b></Link>
+      <Link to="/inicio" className="btn btn-outline-danger" ><b>Volver</b></Link>
         </div>
         <div className="row d-flex justify-content-left">
           <div className="col-lg-12">
