@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FirebaseCrud/static/css/main.54cb9e04.css",
-    "main.js": "/FirebaseCrud/static/js/main.05c1cc76.js",
+    "main.js": "/FirebaseCrud/static/js/main.88071fae.js",
     "static/media/logocuc.png": "/FirebaseCrud/static/media/logocuc.4049983ce61c9b2bad7b.png",
     "index.html": "/FirebaseCrud/index.html",
     "main.54cb9e04.css.map": "/FirebaseCrud/static/css/main.54cb9e04.css.map",
-    "main.05c1cc76.js.map": "/FirebaseCrud/static/js/main.05c1cc76.js.map"
+    "main.88071fae.js.map": "/FirebaseCrud/static/js/main.88071fae.js.map"
   },
   "entrypoints": [
     "static/css/main.54cb9e04.css",
-    "static/js/main.05c1cc76.js"
+    "static/js/main.88071fae.js"
   ]
 }
