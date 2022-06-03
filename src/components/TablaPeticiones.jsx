@@ -16,7 +16,7 @@ useEffect(()=>{
       setUser(auth.currentUser);
      
     }else{
-      navigate('/')
+      navigate('/login')
     }
   },[navigate])
 
@@ -36,7 +36,7 @@ obtenerDatos();
     }).then((result) => {
       if (result.isConfirmed) {
         auth.signOut().then(()=>{
-          navigate('/')
+          navigate('FirebaseCrud/')
         })
       }
     })

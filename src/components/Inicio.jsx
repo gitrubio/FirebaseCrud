@@ -17,7 +17,7 @@ export default function Inicio() {
     if (auth.currentUser) {
       setUser(auth.currentUser);
     }else{
-      navigate('/')
+      navigate('/login')
     }
   },[navigate])
   
@@ -105,7 +105,7 @@ export default function Inicio() {
     }).then((result) => {
       if (result.isConfirmed) {
         auth.signOut().then(()=>{
-          navigate('/')
+          navigate('/login')
         })
       }
     })

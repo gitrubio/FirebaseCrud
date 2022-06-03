@@ -69,7 +69,7 @@ export default function Login() {
           <div className="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
             <ul className="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
               <li className="nav-item" role="presentation">
-                <Link to="FirebaseCrud/" className="nav-link active bg-danger" ><b>Login</b></Link>
+                <Link to="/login" className="nav-link active bg-danger" ><b>Login</b></Link>
               </li>
               <li className="nav-item" role="presentation">
                 <Link to="/register" className="nav-link text-danger " ><b>Register</b></Link>
